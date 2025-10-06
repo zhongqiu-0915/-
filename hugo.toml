@@ -1,0 +1,42 @@
+# hugo.toml
+
+title = "丘栖書"  # 修改为您的网站名
+baseURL = "https://example.org/"  # 暂时不用管，部署时会自动设置
+languageCode = "zh-cn"
+defaultContentLanguage = "zh-cn"
+[pagination]
+  pagerSize = 5
+
+# 启用 Emoji 支持
+enableEmoji = true
+
+# 设置主题
+theme = "papermod"
+
+# 基本参数设置
+[params]
+  # 网站描述
+  description = "这是我的个人网站，记录所思所学"
+  # 网站关键词
+  keywords = ["博客", "丘栖書", "仲丘"]
+  # 主题模式： 'auto', 'dark', 'light'
+  defaultTheme = "auto"
+
+# 启用菜单
+[menu]
+  [[menu.main]]
+    identifier = "posts"
+    name = "文章"
+    url = "/posts/"
+    weight = 10
+  [[menu.main]]
+    identifier = "about"
+    name = "关于"
+    url = "/about/"
+    weight = 20
+
+# 语言配置（用于中文归档等日期格式）
+[languages.zh-cn]
+  title = "丘栖書"
+  [languages.zh-cn.params]
+    description = "这是我的个人网站，记录所思所学"
