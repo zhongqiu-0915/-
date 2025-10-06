@@ -1,0 +1,7 @@
+{{ define "main" }}
+    <article>
+        <h2>{{ .Title }}</h2>
+        <p><small>发布日期: {{ .Date.Format "2006-01-02" }}</small></p>
+        <div>{{ .Content }}</div>
+    </article>
+{{ end }}
