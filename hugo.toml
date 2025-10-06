@@ -11,7 +11,7 @@ defaultContentLanguage = "zh-cn"
 enableEmoji = true
 
 # 设置主题
-theme = "papermod"
+theme = "ananke"
 
 # 基本参数设置
 [params]
