@@ -1,11 +1,16 @@
 {{ define "main" }}
-    <h2>欢迎来到我的网站</h2>
+    <h2>欢迎来到 {{ .Site.Title }}</h2>
     <p>{{ .Site.Params.description }}</p>
     
     <h3>最新文章</h3>
     <ul>
-    {{ range first 5 (where .Site.RegularPages "Type" "posts") }}
-        <li><a href="{{ .Permalink }}">{{ .Title }}</a> - {{ .Date.Format "2006-01-02" }}</li>
+    {{ range where .Site.RegularPages "Type" "posts" }}
+        <li>
+            <a href="{{ .Permalink }}">{{ .Title }}</a> 
+            - {{ .Date.Format "2006-01-02" }}
+        </li>
+    {{ else }}
+        <li>暂无文章</li>
     {{ end }}
     </ul>
 {{ end }}
