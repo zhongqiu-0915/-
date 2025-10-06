@@ -40,3 +40,15 @@ theme = "basic"
   title = "丘栖書"
   [languages.zh-cn.params]
     description = "这是我的个人网站，记录所思所学"
+    [outputs]
+  home = ["HTML", "RSS"]
+  
+[mediaTypes]
+  [mediaTypes."text/html"]
+    suffixes = ["html"]
+  
+[outputFormats]
+  [outputFormats."HTML"]
+    mediaType = "text/html"
+    isPlainText = false
+    notAlternative = true
