@@ -2,17 +2,24 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>丘栖書</title>
-    <link>http://localhost:1313/</link>
+    <link>https://example.org/</link>
     <description>Recent content on 丘栖書</description>
     <generator>Hugo</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Mon, 06 Oct 2025 11:23:16 +0800</lastBuildDate>
-    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 06 Oct 2025 11:43:47 +0800</lastBuildDate>
+    <atom:link href="https://example.org/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>About</title>
+      <link>https://example.org/about/</link>
+      <pubDate>Mon, 06 Oct 2025 11:43:47 +0800</pubDate>
+      <guid>https://example.org/about/</guid>
+      <description>&lt;p&gt;終於動手做了！終於有自己的網站了！雖然只是靜態的，但已經很滿足了！總而言之，夠用就行！&lt;/p&gt;</description>
+    </item>
     <item>
       <title>My First Post</title>
-      <link>http://localhost:1313/posts/my-first-post/</link>
+      <link>https://example.org/posts/my-first-post/</link>
       <pubDate>Mon, 06 Oct 2025 11:23:16 +0800</pubDate>
-      <guid>http://localhost:1313/posts/my-first-post/</guid>
+      <guid>https://example.org/posts/my-first-post/</guid>
       <description>&lt;h1 id=&#34;欢迎来到我的网站&#34;&gt;欢迎来到我的网站！&lt;/h1&gt;&#xA;&lt;p&gt;这是我的第一篇文章，用 &lt;strong&gt;Hugo&lt;/strong&gt; 和 &lt;strong&gt;Markdown&lt;/strong&gt; 写成。&lt;/p&gt;&#xA;&lt;h2 id=&#34;一些示例&#34;&gt;一些示例&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;这是一个列表项&lt;/li&gt;&#xA;&lt;li&gt;这是另一个&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;这是一段引文。&lt;/p&gt;&lt;/blockquote&gt;&#xA;&lt;p&gt;感谢阅读！&lt;/p&gt;</description>
     </item>
   </channel>
