@@ -1,6 +1,5 @@
 ---
 title: "My First Post"
-date: 2025-10-06T11:23:16+08:00
 draft: false
 ---
 # 欢迎来到我的网站！
